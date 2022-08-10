@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RegisterOK</title>
+    <link href="~/OuterTools/FlatAdmin/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/OuterTools/FlatAdmin/js/bootstrap.js"></script>
+    <script src="~/OuterTools/FlatAdmin/js/jquery.js"></script>
+</head>
+<body>
+    <div class="jumbotron"> 
+        <h2>Tebrikler Kayit Oldunuz. Lutfen Email Adresinize Gonderdigimiz Aktivasyon Linkine Tiklayarak Hesabinizi Aktif Hale Getiriniz</h2>
+    </div>
+</body>
+</html>
+
+<script>
+
+    $(function () {
+        setTimeout(function () {
+            window.location = "/Register/RegisterNow";
+        },5000)
+    })
+</script>
